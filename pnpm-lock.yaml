@@ -1,0 +1,28 @@
+importers:
+  packages/test-a:
+    dependencies:
+      example: 0.0.0
+      npm-package-example: 1.1.2
+    specifiers:
+      example: '*'
+      npm-package-example: '*'
+  packages/test-b:
+    dependencies:
+      example: 0.0.0
+      npm-package-example: 1.1.2
+    specifiers:
+      example: '*'
+      npm-package-example: '*'
+lockfileVersion: 5
+packages:
+  /example/0.0.0:
+    dependencies: {}
+    dev: false
+    peerDependencies:
+      npm-package-example: '*'
+    resolution:
+      integrity: sha1-UQy01lqfdCzrojaSDsfFCKZZVPY=
+  /npm-package-example/1.1.2:
+    dev: false
+    resolution:
+      integrity: sha1-dF2e8v69f+nUDdwyuz/mMxHTae8=
