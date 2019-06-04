@@ -11,6 +11,7 @@ packages:
   /example/0.0.0_npm-package-example@1.1.2:
     dependencies:
       npm-package-example: 1.1.2
+      string-format: 2.0.0
     dev: false
     peerDependencies:
       npm-package-example: '*'
@@ -20,3 +21,7 @@ packages:
     dev: false
     resolution:
       integrity: sha1-dF2e8v69f+nUDdwyuz/mMxHTae8=
+  /string-format/2.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-bbEs3scLeYNXLecRRuk6uJxdXUSj6le/8rNPHChIJTn2V79aXVTR1EH2OH5zLKKoz0V02fOUKZZcw01pLUShZA==
