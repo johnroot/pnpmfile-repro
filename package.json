@@ -1,0 +1,19 @@
+{
+  "name": "pnpmfile-repro",
+  "version": "1.0.0",
+  "description": "pnpmfile issue reproduction repo",
+  "main": "index.j",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnroot/pnpmfile-repro.git"
+  },
+  "author": "Johnathon Root",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnroot/pnpmfile-repro/issues"
+  },
+  "homepage": "https://github.com/johnroot/pnpmfile-repro#readme"
+}
