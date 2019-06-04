@@ -1,22 +1,16 @@
 importers:
-  packages/test-a:
+  packages/test:
     dependencies:
-      example: 0.0.0
-      npm-package-example: 1.1.2
-    specifiers:
-      example: '*'
-      npm-package-example: '*'
-  packages/test-b:
-    dependencies:
-      example: 0.0.0
+      example: 0.0.0_npm-package-example@1.1.2
       npm-package-example: 1.1.2
     specifiers:
       example: '*'
       npm-package-example: '*'
 lockfileVersion: 5
 packages:
-  /example/0.0.0:
-    dependencies: {}
+  /example/0.0.0_npm-package-example@1.1.2:
+    dependencies:
+      npm-package-example: 1.1.2
     dev: false
     peerDependencies:
       npm-package-example: '*'
